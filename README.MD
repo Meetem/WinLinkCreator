@@ -1,6 +1,6 @@
 # WinLinkCreator
 
-This small tool allows you to create symbolink link via shell extension
+### This small tool allows you to create symbolic link via shell extension
 
 ![Preview](img/symlinkShell.png)
 
