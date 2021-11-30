@@ -75,6 +75,9 @@ namespace WinLinkCreator
             si.CreateNoWindow = true;
             si.RedirectStandardOutput = true;
             si.RedirectStandardError = true;
+            si.Verb = "runas";
+            
+            Console.WriteLine(si.Arguments.Substring(3));
             
             var process = Process.Start(si);
             process.WaitForExit();
